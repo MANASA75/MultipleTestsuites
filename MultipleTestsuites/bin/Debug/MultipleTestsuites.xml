@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultipleTestsuites</name>
+    </assembly>
+    <members>
+        <member name="T:MultipleTestsuites.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MultipleTestsuites.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MultipleTestsuitesRepository repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MultipleTestsuites.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MultipleTestsuites.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.MultipleTestsuitesRepository">
+            <summary>
+            The class representing the MultipleTestsuitesRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MultipleTestsuitesRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.MultipleTestsuitesRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.MultipleTestsuitesRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.FunctionalUITestAutomationWithIntel">
+            <summary>
+            The FunctionalUITestAutomationWithIntel item.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.FunctionalUITestAutomationWithIntelInfo">
+            <summary>
+            The FunctionalUITestAutomationWithIntel item info.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.Ranorex">
+            <summary>
+            The Ranorex item.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.RanorexInfo">
+            <summary>
+            The Ranorex item info.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.Products">
+            <summary>
+            The Products item.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.ProductsInfo">
+            <summary>
+            The Products item info.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.Solutions">
+            <summary>
+            The Solutions item.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.MultipleTestsuitesRepositoryFolders.ApplicationUnderTestAppFolder.SolutionsInfo">
+            <summary>
+            The Solutions item info.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MultipleTestsuites.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MultipleTestsuitesRepository repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MultipleTestsuites.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MultipleTestsuites.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MultipleTestsuites.Recording1.repo">
+            <summary>
+            Holds an instance of the MultipleTestsuitesRepository repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MultipleTestsuites.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MultipleTestsuites.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:MultipleTestsuites.Recording2.repo">
+            <summary>
+            Holds an instance of the MultipleTestsuitesRepository repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MultipleTestsuites.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MultipleTestsuites.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:MultipleTestsuites.Recording3.repo">
+            <summary>
+            Holds an instance of the MultipleTestsuitesRepository repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MultipleTestsuites.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MultipleTestsuites.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MultipleTestsuites.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:MultipleTestsuites.Recording4.repo">
+            <summary>
+            Holds an instance of the MultipleTestsuitesRepository repository.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MultipleTestsuites.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MultipleTestsuites.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MultipleTestsuites.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MultipleTestsuites.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

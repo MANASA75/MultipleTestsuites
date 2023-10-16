@@ -1,0 +1,91 @@
+﻿<repository
+id="38f966e7-7f6e-497e-81f4-1ceb3cb311ce"
+name="MultipleTestsuitesRepository">
+	<codegen
+	classname="MultipleTestsuitesRepository"
+	namespace="MultipleTestsuites">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f199aa88-a136-4351-a04d-3c0a33209083"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="331cf5f7-4dcf-4089-88dc-d209b240e201"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="e961ff41-ae80-4cb8-8ed4-114d44c4a1c1"
+			name="FunctionalUITestAutomationWithIntel"
+			refimgid="a6f20847-21d6-45f4-a642-472a1b7193e8"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'main-content']/article/div/div/div/div[1]/div/div[1]/div[1]/div/h1[@innertext>'Functional UI Test Automation']"
+			robustPath="/dom[@domain='www.ranorex.com']//div[#'main-content']//h1[@innertext>'Functional UI Test Automation']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'main-content']/article/div/div/div/div[1]/div/div[1]/div[1]/?/?/h1[@innertext&gt;'Functional UI Test Automation']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="a0b97386-2b4d-452f-aac0-69bc4b4dd429"
+			name="Ranorex"
+			refimgid="1eef9584-5a4b-41ab-afaf-63ede085734d"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'et-boc']/header/div/div[2]/div/div[1]/div/a/span/img[@title='Ranorex-Logo-WithTagline']"
+			robustPath="/dom[@domain='www.ranorex.com']//div[#'et-boc']//img[@title='Ranorex-Logo-WithTagline']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'page-container']/div[@id='et-boc']/header/div/div[2]//a[@href='https://www.ranorex.com/']/?/?/img[@title='Ranorex-Logo-WithTagline']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b214010f-0de8-4a81-9e62-1c06707cdacd"
+			name="Products"
+			refimgid="9797ac1c-2516-47c5-ba1f-dc1fbea92a94"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/li[1]/a[@innertext='Products']"
+			robustPath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Products']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Products']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="2e406f02-7555-44d2-95ff-9dd6ea7e3cc6"
+			name="Solutions"
+			refimgid="b0987ade-5fbf-453f-bb0e-2a5d92dd2570"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/li[2]/a[@innertext='Solutions']"
+			robustPath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Solutions']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Solutions']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

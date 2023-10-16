@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2ec1d916-4362-4ebb-bc0d-0b9075a4d43f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="MultipleTestsuites">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="64ba75da-5635-4bee-8069-8571c256d64c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="331cf5f7-4dcf-4089-88dc-d209b240e201"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="38f966e7-7f6e-497e-81f4-1ceb3cb311ce"
+	name="MultipleTestsuitesRepository"
+	relativepath="MultipleTestsuitesRepository.rxrep">
+		<codegen
+		classname="MultipleTestsuitesRepository"
+		namespace="MultipleTestsuites">
+		</codegen>
+		<rootfolder
+		id="f199aa88-a136-4351-a04d-3c0a33209083"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

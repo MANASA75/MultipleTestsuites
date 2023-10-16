@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="73eefb3b-428b-45c4-a0f1-228a47fa58fd"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording4"
+	namespace="MultipleTestsuites">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Down"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="52;18"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e3f6d2e9-fd35-4096-bae7-ad026d424109"
+		sx="1094"
+		sy="217"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2e406f02-7555-44d2-95ff-9dd6ea7e3cc6"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1042,199,106,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Solutions
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://www.ranorex.com/#
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-class"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Solutions']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="98a88f32-8e82-495a-899f-75db58713710">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABVAT4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqK6do7WZ0OGVGIPv
+isy2/tW5gWZLmMK2cAqM9celS5WdjWFLmjzXSNiiszyNY/5+ofy/+xo8jWP+fqH8v/saObyK9iv5
+l/XyNOiszyNY/wCfqH8v/saPI1j/AJ+ofy/+xo5vIPYr+Zf18jTorM8jWP8An6h/L/7GjyNY/wCf
+qH8v/saObyD2K/mX9fI06KzPI1j/AJ+ofy/+xo8jWP8An6h/L/7Gjm8g9iv5l/XyNOiszyNY/wCf
+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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="38f966e7-7f6e-497e-81f4-1ceb3cb311ce"
+	name="MultipleTestsuitesRepository"
+	relativepath="MultipleTestsuitesRepository.rxrep">
+		<codegen
+		classname="MultipleTestsuitesRepository"
+		namespace="MultipleTestsuites">
+		</codegen>
+		<rootfolder
+		id="f199aa88-a136-4351-a04d-3c0a33209083"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording4.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
